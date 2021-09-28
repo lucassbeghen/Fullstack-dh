@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vw;
+    
+}
+
+header{
+    height:70px;
+    box-shadow: 0 0 10px #0004;
+    }
+
+
+main{
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+footer{
+    background-color: #333;
+    height: 260px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+  }
+
+h3 {
+    width: 100px;
+    margin: auto; 
+    padding: 100px;
+    text-align:justify;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    
+}
+
+img.instagram {
+     height: 30px;
+     
+}
+
+img.facebook {
+    height: 30px;
+}
+
+img.whatsapp {
+    height: 30px;
+}
+
+.card {
+    width: 420px;
+    height: 400px;
+    background-color: #EEEEEE;
+    display:flex;
+    
+}
+
+.card img {
+    width: 150%;
+    height: 150%;
+    display: flex;
+}
+
+.highlighted-container {
+ display: flex;
+ justify-content: space-between;
+ padding: 10px;
+}
+
+.new{
+    background-color: #51d275;
+    display:flex;
+    
+    
+}
+
+.price{
+    color: #888;
+    font-size: 25px;
+    display: inline-block;
+}
+
+.sale{  
+    background-color:#DC9730;
+    }
+
+.default-tag{
+    padding: 10px 20px;
+    border-radius: 30px;
+    color:#fff;
+}
+
+.description-container p {
+    color: #555555;
+    padding-left: 100px;
+    text-align:center;
+    display: flex;
+}
+
+.description-container {
+    padding: 10px;
+    text-align: justify;
+    display: flex;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
